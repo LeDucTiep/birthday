@@ -9,13 +9,12 @@
   <style>
     * {
       margin: 0;
-      padding: 0;
+      padding: 3em 0;
       box-sizing: border-box;
       font-family: Arial, Helvetica, sans-serif;
     }
 
     body {
-      display: flex;
       justify-content: center;
       align-items: center;
       min-height: 100vh;
@@ -23,12 +22,13 @@
     }
 
     h2 {
-      position: relative;
-      font-size: 6em;
+      width: 100%;
+      margin: 0.2em;
+      padding: 0.5em 0.5em 0.5em;
+      font-size: 2em;
       letter-spacing: 15px;
       color: #0e3742;
       text-align: center;
-      -webkit-box-reflect: below 1px linear-gradient(transparent, #0004);
       line-height: 0.70em;
       outline: none;
       /* animation: animate 10s linear infinite; */
@@ -43,8 +43,10 @@
 </head>
 
 <body onclick="change()">
-  <h2 id="text-x">Chúc mừng sinh nhật<br><br>@NT Ngọc Bích ❤️</h2>
-
+  <h2 id="text-x">Chúc mừng</h2><br>
+  <h2>sinh nhật</h2><br>
+  <h2>@NT Ngọc Bích</h2>
+  <h2>❤️</h2>
   <script>
     function change() {
       location = "./2.html";
